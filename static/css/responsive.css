@@ -1,0 +1,67 @@
+/* Large Version */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .welcome-content h2 {
+        font-size: 42px;
+    }
+}
+
+/* Medium Version */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .welcome_area {
+        height: 700px !important;
+    }
+    .welcome_single_slider.height-900 {
+        height: 700px;
+    }
+    .welcome-content h2 {
+        font-size: 30px;
+    }
+    
+    .login-btn {
+        margin: 30px;
+    }
+    
+}
+
+/* Mobile Version */
+
+@media only screen and (max-width: 767px) {
+    .login-btn {
+        margin: 30px;
+    }
+    .welcome-content h2 {
+        font-size: 24px;
+    }
+    .welcome-content p {
+        font-size: 14px;
+    }
+    
+    .welcome-content {
+        margin-top: 130px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .welcome_area {
+        height: 1100px !important;
+    }
+    .welcome_area.none{
+        height: 100vh !important;
+    }
+    
+    .welcome-content h2 {
+        font-size: 30px;
+    }
+   
+    
+   
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .welcome-content h2 {
+        font-size: 36px;
+    }
+    
+}
